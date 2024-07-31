@@ -18,3 +18,9 @@ describe("This should return an false", () => {
     expect(false).toBe(false);
   });
 });
+
+describe("This should return an true", () => {
+  it("Should return an object", () => {
+    expect(true).toBe(true);
+  });
+});

@@ -1,5 +1,11 @@
 # expo-nativewind-component
 
+## 0.0.9
+
+### Patch Changes
+
+- working out github error
+
 ## 0.0.8
 
 ### Patch Changes
