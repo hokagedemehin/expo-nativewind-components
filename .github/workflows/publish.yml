@@ -28,8 +28,8 @@ jobs:
         run: npm run lint
       - name: Test with Jest
         run: npm test
-      - name: Build
-        run: npm run build
+      # - name: Build
+      #   run: npm run build
       - name: Create Realease Pull request & Publish to npm
         id: changesets
         uses: changesets/action@v1

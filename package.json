@@ -10,7 +10,7 @@
     "build": "tsup",
     "lint": "tsc",
     "publish": "npm publish",
-    "release": "changeset publish",
+    "release": "npm run build && changeset publish",
     "local-build": "npx changeset add && npx changeset version"
   },
   "repository": {
