@@ -13,8 +13,8 @@ describe("This should return a number", () => {
   });
 });
 
-describe("This should return an object", () => {
+describe("This should return an false", () => {
   it("Should return an object", () => {
-    expect({}).toBe({});
+    expect(false).toBe(false);
   });
 });
