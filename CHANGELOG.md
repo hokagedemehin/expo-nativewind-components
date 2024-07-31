@@ -1,5 +1,11 @@
 # expo-nativewind-component
 
+## 0.0.4
+
+### Patch Changes
+
+- Adding dist file to the package
+
 ## 0.0.3
 
 ### Patch Changes
