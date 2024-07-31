@@ -11,7 +11,7 @@
     "build": "tsup",
     "lint": "tsc",
     "publish": "npm publish",
-    "release": "changeset publish"
+    "release": "changeset publish --access public"
   },
   "repository": {
     "type": "git",
