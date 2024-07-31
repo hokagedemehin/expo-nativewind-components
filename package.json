@@ -1,23 +1,46 @@
 {
   "name": "expo-nativewind-component",
-  "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "version": "0.0.1",
+  "description": "React Native components supercharged with Native Wind",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "test": "vitest run",
+    "build": "tsup",
+    "lint": "tsc",
+    "publish": "npm publish",
+    "release": "changeset publish"
   },
-  "dependencies": {
-    "expo": "~51.0.24",
-    "expo-status-bar": "~1.12.1",
-    "react": "18.2.0",
-    "react-native": "0.74.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hokagedemehin/expo-nativewind-components.git"
   },
+  "keywords": [
+    "react-native",
+    "expo",
+    "native-wind",
+    "eas",
+    "typescript"
+  ],
+  "author": "ibkdem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hokagedemehin/expo-nativewind-components/issues"
+  },
+  "homepage": "https://github.com/hokagedemehin/expo-nativewind-components#readme",
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@changesets/cli": "^2.27.7",
     "@types/react": "~18.2.45",
-    "typescript": "^5.1.3"
-  },
-  "private": true
+    "expo": "~51.0.24",
+    "expo-status-bar": "~1.12.1",
+    "nativewind": "^2.0.11",
+    "react": "18.2.0",
+    "react-native": "0.74.3",
+    "tailwindcss": "^3.3.2",
+    "tsup": "^8.2.3",
+    "typescript": "^5.1.3",
+    "vitest": "^2.0.5"
+  }
 }

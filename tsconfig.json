@@ -1,6 +1,20 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
-  }
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "target": "ES2023",
+    "moduleResolution": "Node",
+    "module": "commonjs",
+    "declaration": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    // "rootDir": "./src",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts", "./"]
+  // "exclude": ["node_modules"]
 }
