@@ -1,0 +1,52 @@
+name: Publish
+run-name: Running job to publish package
+on:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16.x
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      - name: Lint with ESLint
+        run: npm run lint
+      - name: Test with Jest
+        run: npm test
+      - name: Publish package
+        uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          access: public
+        # env:
+        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        #   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        # tag: latest
+        # dry-run: false
+        # registry-url: "https://registry.npmjs.org"
+        # package-json: "package.json"
+        # dist-tag: "latest"
+        # working-directory: "./dist"
+        # npm-client: "npm"
+        # npm-client-options: "--no-fund --no-audit --no-optional --no-package-lock"
+        # git-remote: "origin"
+########################################################
+# - name: Create Realease Pull request & Publish to npm
+#   id: changesets
+#   uses: changesets/action@v1
+#   with:
+#     publish: npm publish # or npm build as second option
+########################################################
+# - name: Publish package
+#   run: npm publish
