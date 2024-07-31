@@ -1,6 +1,5 @@
 {
   "name": "expo-nativewind-component",
-  "access": "public",
   "version": "0.0.2",
   "description": "React Native components supercharged with Native Wind",
   "main": "./dist/index.js",
