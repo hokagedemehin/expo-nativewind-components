@@ -1,5 +1,11 @@
 # expo-nativewind-component
 
+## 0.0.7
+
+### Patch Changes
+
+- Adding missing step to github action
+
 ## 0.0.6
 
 ### Patch Changes
