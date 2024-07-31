@@ -2,6 +2,7 @@
 import { styled } from "nativewind";
 import { StyledWindViewProps } from "./types";
 import { View } from "react-native";
+import React from "react";
 
 const StyledWindViewComp = styled(View);
 
