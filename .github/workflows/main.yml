@@ -28,5 +28,5 @@ jobs:
         run: npm test
       - name: Build
         run: npm run build
-      - name: Package main file
-        run: npm run package
+      - name: Publish main file
+        run: npm run publish
