@@ -5,7 +5,7 @@ node_modules/
 /notes/
 # Expo
 .expo/
-dist
+# dist
 web-build/
 
 # Native
