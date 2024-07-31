@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "expo": "~51.0.24",
-    "expo-nativewind-component": "^0.0.13",
+    "expo-nativewind-component": "^0.0.14",
     "expo-status-bar": "~1.12.1",
     "nativewind": "^2.0.11",
     "react": "18.2.0",

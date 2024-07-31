@@ -1,5 +1,11 @@
 # expo-nativewind-component
 
+## 0.0.15
+
+### Patch Changes
+
+- Removing peer dependencies
+
 ## 0.0.14
 
 ### Patch Changes
