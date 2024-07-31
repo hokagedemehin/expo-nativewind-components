@@ -6,3 +6,9 @@ describe("This should return two strings", () => {
     expect("Passed").toBe("Passed");
   });
 });
+
+describe("This should return a number", () => {
+  it("Should return 1", () => {
+    expect(1).toBe(1);
+  });
+});
