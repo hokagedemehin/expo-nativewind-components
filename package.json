@@ -1,6 +1,6 @@
 {
   "name": "expo-nativewind-component",
-  "private": false,
+  "access": "public",
   "version": "0.0.2",
   "description": "React Native components supercharged with Native Wind",
   "main": "./dist/index.js",
@@ -10,8 +10,8 @@
     "test": "vitest run",
     "build": "tsup",
     "lint": "tsc",
-    "publish": "npm publish",
-    "release": "changeset publish --access public"
+    "publish": "npm publish --access public",
+    "release": "changeset publish"
   },
   "repository": {
     "type": "git",
