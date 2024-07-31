@@ -1,8 +1,14 @@
 /src
 /node_modules
-
+/assests
+.changeset
+.vscode
+.github
 .env
 .DS_Store
 
 tsconfig.json
 tsup.config.ts
+babel.config.js
+app.json
+package-lock.json
