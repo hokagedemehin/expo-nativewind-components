@@ -24,17 +24,17 @@ jobs:
           cache: "npm"
       - name: Install dependencies
         run: npm ci
-      # - name: Lint with ESLint
-      #   run: npm run lint
-      # - name: Test with Jest
-      #   run: npm test
-      # - name: Build
-      #   run: npm run build
+      - name: Lint with ESLint
+        run: npm run lint
+      - name: Test with Jest
+        run: npm test
+      - name: Build
+        run: npm run build
       - name: Create Realease Pull request & Publish
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: npm run release2 # or npm release as second option
+          publish: npm run release # or npm release as second option
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
