@@ -1,5 +1,11 @@
 # expo-nativewind-component
 
+## 0.0.10
+
+### Patch Changes
+
+- Checking for solution on npm publish action
+
 ## 0.0.9
 
 ### Patch Changes
