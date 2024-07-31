@@ -12,3 +12,9 @@ describe("This should return a number", () => {
     expect(1).toBe(1);
   });
 });
+
+describe("This should return an object", () => {
+  it("Should return an object", () => {
+    expect({}).toBe({});
+  });
+});
