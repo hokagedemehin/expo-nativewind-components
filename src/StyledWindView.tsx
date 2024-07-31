@@ -5,12 +5,12 @@ import { View } from "react-native";
 
 const StyledWindViewComp = styled(View);
 
-export const StyledWindView = ({
+export const StyledWindView: React.FC<StyledWindViewProps> = ({
   children,
   className,
   style,
   ...rest
-}: StyledWindViewProps) => {
+}) => {
   return (
     <StyledWindViewComp className={className} style={style} {...rest}>
       {children}

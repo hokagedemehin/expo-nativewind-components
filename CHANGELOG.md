@@ -1,5 +1,11 @@
 # expo-nativewind-component
 
+## 0.0.13
+
+### Patch Changes
+
+- correcting the react error issue
+
 ## 0.0.12
 
 ### Patch Changes
