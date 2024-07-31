@@ -9,7 +9,7 @@
     "test": "vitest run",
     "build": "tsup",
     "lint": "tsc",
-    "publish": "npm publish --access public",
+    "publish": "npm publish",
     "release": "changeset publish"
   },
   "repository": {
