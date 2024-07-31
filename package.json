@@ -1,6 +1,6 @@
 {
   "name": "expo-nativewind-component",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "React Native components supercharged with Native Wind",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -9,7 +9,6 @@
     "test": "vitest run",
     "build": "tsup",
     "lint": "tsc",
-    "publish": "npm publish",
     "release2": "npm run build && changeset publish",
     "local-build": "npx changeset add && npx changeset version"
   },

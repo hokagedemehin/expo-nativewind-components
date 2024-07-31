@@ -1,5 +1,11 @@
 # expo-nativewind-component
 
+## 0.0.11
+
+### Patch Changes
+
+- new version test
+
 ## 0.0.10
 
 ### Patch Changes
