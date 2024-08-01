@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.3
+
+### Patch Changes
+
+- Correcting Text export and adding pressable component
+
 ## 0.1.2
 
 ### Patch Changes

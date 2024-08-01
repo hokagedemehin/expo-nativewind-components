@@ -1,12 +1,24 @@
-import * as React from 'react';
-import React__default from 'react';
-import { ViewProps } from 'react-native';
+import { ViewProps, TextProps } from 'react-native';
+import React from 'react';
 
 type StyledWindViewProps = ViewProps & {
-    children: React__default.ReactNode;
+    children: React.ReactNode;
     className?: string;
+    style?: object;
+};
+type StyledWindTextProps = TextProps & {
+    children: React.ReactNode;
+    className?: string;
+    style?: object;
+};
+type StyledWindPressableProps = {
+    children: React.ReactNode;
+    className?: string;
+    style?: object;
 };
 
-declare const StyledWindView: ({ children, className, style, ...rest }: StyledWindViewProps) => React.JSX.Element;
+declare const StyledWindView: React.FC<StyledWindViewProps>;
 
-export { StyledWindView, type StyledWindViewProps };
+declare const StyledWindText: React.FC<StyledWindTextProps>;
+
+export { type StyledWindPressableProps, StyledWindText, type StyledWindTextProps, StyledWindView, type StyledWindViewProps };

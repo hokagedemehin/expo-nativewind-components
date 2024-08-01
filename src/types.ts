@@ -12,3 +12,9 @@ export type StyledWindTextProps = TextProps & {
   className?: string;
   style?: object;
 };
+
+export type StyledWindPressableProps = {
+  children: React.ReactNode;
+  className?: string;
+  style?: object;
+};

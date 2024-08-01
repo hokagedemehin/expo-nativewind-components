@@ -5,7 +5,7 @@ import React from "react";
 
 const StyledWindTextComp = styled(Text);
 
-const StyledWindText: React.FC<StyledWindTextProps> = ({
+export const StyledWindText: React.FC<StyledWindTextProps> = ({
   children,
   className,
   style,
@@ -17,5 +17,3 @@ const StyledWindText: React.FC<StyledWindTextProps> = ({
     </StyledWindTextComp>
   );
 };
-
-export default StyledWindText;
