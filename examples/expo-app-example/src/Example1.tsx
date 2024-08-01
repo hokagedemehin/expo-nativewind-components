@@ -1,44 +1,31 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
 import React from "react";
-import { styled } from "nativewind";
-import { StyledWindView } from "expo-nativewind-components";
-
-const StyledText = styled(Text);
+import {
+  StyledWindPressable,
+  StyledWindText,
+  StyledWindView,
+} from "expo-nativewind-components";
 
 const Example1Comp = () => {
   return (
-    <View>
-      <Text
-        style={{
-          color: "red",
-          fontSize: 20,
-          fontWeight: "bold",
-          // borderWidth: 1,
-        }}
+    <StyledWindView className="border-2 p-3 my-3 rounded-lg shadow-lg bg-green-600 shadow-emerald-500">
+      <StyledWindText
+        numberOfLines={1}
+        className="text-white text-3xl font-bold"
       >
-        Example1Comp
-      </Text>
-      <StyledText
-        className="text-red-400 text-4xl font-bold border p-4 rounded-md border-blue-600"
-        // style={{
-        //   color: "blue",
-        //   fontSize: 20,
-        //   fontWeight: "bold",
+        StyledWindText
+      </StyledWindText>
+      <StyledWindPressable
+        // onPress={() => {
+        //   console.log("Pressed");
         // }}
+        className="bg-blue-500 p-3 rounded-lg mt-3"
       >
-        Styled Text
-      </StyledText>
-      <StyledWindView
-        // style={{
-        //   // backgroundColor: "red",
-        //   borderWidth: 2,
-        //   borderColor: "blue",
-        // }}
-        className="border-2 p-3 my-3 rounded-lg shadow-lg bg-green-600 shadow-emerald-500"
-      >
-        <Text>StyledWindView</Text>
-      </StyledWindView>
-    </View>
+        <StyledWindText className="text-white text-lg font-bold">
+          StyledWindPressable
+        </StyledWindText>
+      </StyledWindPressable>
+    </StyledWindView>
   );
 };
 

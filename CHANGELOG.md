@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.4
+
+### Patch Changes
+
+- Adding pressable props to the styled components
+
 ## 0.1.3
 
 ### Patch Changes

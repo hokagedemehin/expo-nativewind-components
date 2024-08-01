@@ -1,4 +1,8 @@
-import { type TextProps, type ViewProps } from "react-native";
+import {
+  type TextProps,
+  type ViewProps,
+  type PressableProps,
+} from "react-native";
 import React from "react";
 
 export type StyledWindViewProps = ViewProps & {
@@ -13,7 +17,7 @@ export type StyledWindTextProps = TextProps & {
   style?: object;
 };
 
-export type StyledWindPressableProps = {
+export type StyledWindPressableProps = PressableProps & {
   children: React.ReactNode;
   className?: string;
   style?: object;
