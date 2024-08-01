@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.7
+
+### Patch Changes
+
+- Adding live documentation link to NPM
+
 ## 0.1.6
 
 ### Patch Changes

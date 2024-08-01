@@ -19,8 +19,14 @@ export default {
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="description" content="Swimlink Web Documentation" />
-      <meta name="og:title" content="Swimlink Web Documentation" />
+      <meta
+        name="description"
+        content="Expo Nativewind Components Documentation"
+      />
+      <meta
+        name="og:title"
+        content="Expo Nativewind Components Documentation"
+      />
       <link
         rel="icon"
         href="https://raw.githubusercontent.com/hokagedemehin/expo-nativewind-components/main/play_store_512.png"
@@ -56,11 +62,6 @@ export default {
             Expo NativeWind Components
           </a>
         </div>
-        {/* <div>
-          <a href="/" target="_blank" rel="noopener noreferrer">
-            Swimlink Web Documentation
-          </a>
-        </div> */}
       </>
     ),
   },

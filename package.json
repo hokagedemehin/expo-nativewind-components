@@ -1,6 +1,6 @@
 {
   "name": "expo-nativewind-components",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "React Native components supercharged with Native Wind",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/hokagedemehin/expo-nativewind-components/issues"
   },
-  "homepage": "https://github.com/hokagedemehin/expo-nativewind-components#readme",
+  "homepage": "https://expo-nativewind-components.vercel.app",
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@changesets/cli": "^2.27.7",
