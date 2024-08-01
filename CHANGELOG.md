@@ -1,4 +1,10 @@
-# expo-nativewind-component
+# expo-nativewind-components
+
+## 0.0.18
+
+### Patch Changes
+
+- Renaming the package
 
 ## 0.0.17
 

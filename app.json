@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-nativewind-component",
-    "slug": "expo-nativewind-component",
+    "name": "expo-nativewind-components",
+    "slug": "expo-nativewind-components",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

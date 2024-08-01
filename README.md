@@ -1,10 +1,10 @@
-# expo-nativewind-component
+# expo-nativewind-components
 
 <img src='https://raw.githubusercontent.com/hokagedemehin/expo-nativewind-components/main/play_store_512.png' alt='package logo' width='200' />
 
 <!-- ![package logo](https://raw.githubusercontent.com/hokagedemehin/expo-nativewind-components/main/play_store_512.png) -->
 
-[![npm version](https://badge.fury.io/js/expo-nativewind-component.svg)](https://badge.fury.io/js/expo-nativewind-component)
+[![npm version](https://badge.fury.io/js/expo-nativewind-components.svg)](https://badge.fury.io/js/expo-nativewind-components)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A collection of reusable React Native components for Expo projects, super charged with NativeWind. once you have an expo project setup with NativeWind, you can use these components in place of the core React Native components and pass className props directly to style your components.
@@ -22,11 +22,11 @@ A collection of reusable React Native components for Expo projects, super charge
 To install the package, run:
 
 ```sh
-npm install expo-nativewind-component
+npm install expo-nativewind-components
 ```
 
 ```js
-yarn add expo-nativewind-component
+yarn add expo-nativewind-components
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ Import the components you need from the package and use them in your project. He
 ```jsx
 import React from "react";
 import { View } from "react-native";
-import { MyComponent } from "expo-nativewind-component";
+import { MyComponent } from "expo-nativewind-components";
 
 const App = () => {
   return (
