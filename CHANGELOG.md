@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.0
+
+### Minor Changes
+
+- Arranging the core components properly
+
 ## 0.0.18
 
 ### Patch Changes
