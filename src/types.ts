@@ -1,5 +1,6 @@
 import {
   type TextProps,
+  type ActivityIndicatorProps,
   type ViewProps,
   type PressableProps,
 } from "react-native";
@@ -19,6 +20,11 @@ export type StyledWindTextProps = TextProps & {
 
 export type StyledWindPressableProps = PressableProps & {
   children: React.ReactNode;
+  className?: string;
+  style?: object;
+};
+
+export type StyledWindActivityIndicatorProps = ActivityIndicatorProps & {
   className?: string;
   style?: object;
 };

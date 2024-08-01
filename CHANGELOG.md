@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.5
+
+### Patch Changes
+
+- Adding ActivityIndicator component
+
 ## 0.1.4
 
 ### Patch Changes

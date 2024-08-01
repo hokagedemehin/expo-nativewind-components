@@ -16,9 +16,12 @@ const Example1Comp = () => {
         StyledWindText
       </StyledWindText>
       <StyledWindPressable
-        // onPress={() => {
-        //   console.log("Pressed");
-        // }}
+        onPress={() => {
+          console.log("Pressed");
+        }}
+        onLongPress={() => {
+          console.log("Long Pressed");
+        }}
         className="bg-blue-500 p-3 rounded-lg mt-3"
       >
         <StyledWindText className="text-white text-lg font-bold">
