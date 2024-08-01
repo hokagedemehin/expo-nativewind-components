@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.1
+
+### Patch Changes
+
+- Adding React Native text core component
+
 ## 0.1.0
 
 ### Minor Changes

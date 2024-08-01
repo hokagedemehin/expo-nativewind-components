@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { styled } from "nativewind";
-// import { StyledWindView } from "expo-nativewind-component";
+import { StyledWindView } from "expo-nativewind-components";
 
 const StyledText = styled(Text);
 
@@ -28,7 +28,7 @@ const Example1Comp = () => {
       >
         Styled Text
       </StyledText>
-      {/* <StyledWindView
+      <StyledWindView
         // style={{
         //   // backgroundColor: "red",
         //   borderWidth: 2,
@@ -37,7 +37,7 @@ const Example1Comp = () => {
         className="border-2 p-3 my-3 rounded-lg shadow-lg bg-green-600 shadow-emerald-500"
       >
         <Text>StyledWindView</Text>
-      </StyledWindView> */}
+      </StyledWindView>
     </View>
   );
 };
