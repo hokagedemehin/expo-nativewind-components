@@ -13,3 +13,4 @@ babel.config.js
 app.json
 package-lock.json
 /examples
+/docs

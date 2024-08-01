@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.6
+
+### Patch Changes
+
+- Adding docs of the package
+
 ## 0.1.5
 
 ### Patch Changes
