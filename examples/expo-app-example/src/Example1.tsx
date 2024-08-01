@@ -28,7 +28,14 @@ const Example1Comp = () => {
       >
         Styled Text
       </StyledText>
-      <StyledWindView className="border-2 p-3 my-3 rounded-lg shadow-lg shadow-emerald-500">
+      <StyledWindView
+        // style={{
+        //   // backgroundColor: "red",
+        //   borderWidth: 2,
+        //   borderColor: "blue",
+        // }}
+        className="border-2 p-3 my-3 rounded-lg shadow-lg bg-green-600 shadow-emerald-500"
+      >
         <Text>StyledWindView</Text>
       </StyledWindView>
     </View>

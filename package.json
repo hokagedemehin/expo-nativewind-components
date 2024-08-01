@@ -1,6 +1,6 @@
 {
   "name": "expo-nativewind-component",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "React Native components supercharged with Native Wind",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -42,5 +42,8 @@
     "tsup": "^8.2.3",
     "typescript": "^5.1.3",
     "vitest": "^2.0.5"
+  },
+  "peerDependencies": {
+    "nativewind": "^2.0.11"
   }
 }

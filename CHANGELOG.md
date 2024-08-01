@@ -1,5 +1,11 @@
 # expo-nativewind-component
 
+## 0.0.16
+
+### Patch Changes
+
+- adding native wind v2 as peer dependency
+
 ## 0.0.15
 
 ### Patch Changes

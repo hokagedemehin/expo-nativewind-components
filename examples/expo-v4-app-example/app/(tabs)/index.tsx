@@ -1,10 +1,12 @@
-import { Image, StyleSheet, Platform } from "react-native";
+import { Image, StyleSheet, Platform, Text } from "react-native";
 
 import { HelloWave } from "@/components/HelloWave";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
-// import {} from 'expo-nativewind-component';
+import NativeTextComp from "@/components/NativeText";
+// import { StyledWindView } from "expo-nativewind-component";
+
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
@@ -20,6 +22,21 @@ export default function HomeScreen() {
         <ThemedText type="title">Welcome!</ThemedText>
         <HelloWave />
       </ThemedView>
+      <Text
+        // className="text-red-400 text-4xl font-bold border p-4 rounded-md border-blue-600"
+        style={{
+          color: "pink",
+          fontSize: 20,
+          fontWeight: "bold",
+        }}
+      >
+        Styled Text
+      </Text>
+      <NativeTextComp className="bg-green-500 h-10 w-20 border" />
+
+      {/* <StyledWindView className="">
+        <ThemedText>StyledWindView</ThemedText>
+      </StyledWindView> */}
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
         <ThemedText>
