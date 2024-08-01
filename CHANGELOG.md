@@ -1,5 +1,15 @@
 # expo-nativewind-component
 
+## 0.0.17
+
+### Patch Changes
+
+- Improving on README file
+- Adding more details to the README file
+- Adding LICENSE and code of conduct files
+- Adding contributing guidelines
+- Adding package logo to the README file
+
 ## 0.0.16
 
 ### Patch Changes
