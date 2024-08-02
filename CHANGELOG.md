@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.13
+
+### Patch Changes
+
+- Updating installation documentation
+
 ## 0.1.12
 
 ### Patch Changes
