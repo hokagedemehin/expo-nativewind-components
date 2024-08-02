@@ -25,7 +25,7 @@ const Example1Comp = () => {
         className="bg-blue-500 p-3 rounded-lg mt-3"
       >
         <StyledWindText className="text-white text-lg font-bold">
-          StyledWindPressable
+          StyledWindPressable a update oustide of the component
         </StyledWindText>
       </StyledWindPressable>
     </StyledWindView>
