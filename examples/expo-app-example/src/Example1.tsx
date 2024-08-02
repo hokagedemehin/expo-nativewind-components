@@ -11,7 +11,7 @@ import {
 
 const Example1Comp = () => {
   return (
-    <StyledWindView className="border-2 p-3 my-3 rounded-lg shadow-lg bg-green-600 shadow-emerald-500">
+    <StyledWindView className="border-2 p-3 my-3 rounded-lg shadow-lg bg-green-600 shadow-emerald-500 m-2">
       <StyledWindText
         numberOfLines={1}
         className="text-white text-3xl font-bold"
@@ -40,15 +40,20 @@ const Example1Comp = () => {
         size="large"
       />
       <StyleWindImage
-        style={{
-          objectFit: "contain",
-        }}
-        source={require("../assets/homeBG1.png")}
-        className="w-40 h-20 mt-3"
+        style={
+          {
+            // objectFit: "scale-down",
+            // resizeMode: "contain",
+            // borderWidth: 4,
+            // borderColor: "red",
+          }
+        }
+        source={require("../assets/dashboard6.png")}
+        className="w-40 h-40 m-6 translate-x-10 border-4 border-red-700 object-scale-down object-left-bottom rounded-full bg-black"
       />
       <StyledWindImageBackground
         source={require("../assets/homeBG1.png")}
-        className="w-40 h-20 mt-3 border-4 border-red-500"
+        className="w-40 h-20 mt-3 border-4 border-red-700"
         style={{}}
         imageStyle={{
           objectFit: "contain",

@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.11
+
+### Patch Changes
+
+- Adding expo image seperately
+
 ## 0.1.10
 
 ### Patch Changes

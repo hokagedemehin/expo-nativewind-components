@@ -6,7 +6,7 @@ import {
   type ImageProps,
   type ImageBackgroundProps,
 } from "react-native";
-// import { type ImageProps } from "expo-image";
+import { type ImageProps as ExpoImageProps } from "expo-image";
 import React from "react";
 
 export type StyledWindViewProps = ViewProps & {
@@ -39,6 +39,11 @@ export type StyledWindImageProps = ImageProps & {
 
 export type StyledWindImageBackgroundProps = ImageBackgroundProps & {
   children: React.ReactNode;
+  className?: string;
+  style?: object;
+};
+
+export type StyledWindExpoImageProps = ExpoImageProps & {
   className?: string;
   style?: object;
 };
