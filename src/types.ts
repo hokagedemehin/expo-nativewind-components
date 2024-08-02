@@ -3,7 +3,10 @@ import {
   type ActivityIndicatorProps,
   type ViewProps,
   type PressableProps,
+  // type ImageProps,
+  type ImageBackgroundProps,
 } from "react-native";
+import { type ImageProps } from "expo-image";
 import React from "react";
 
 export type StyledWindViewProps = ViewProps & {
@@ -25,6 +28,17 @@ export type StyledWindPressableProps = PressableProps & {
 };
 
 export type StyledWindActivityIndicatorProps = ActivityIndicatorProps & {
+  className?: string;
+  style?: object;
+};
+
+export type StyledWindImageProps = ImageProps & {
+  className?: string;
+  style?: object;
+};
+
+export type StyledWindImageBackgroundProps = ImageBackgroundProps & {
+  children: React.ReactNode;
   className?: string;
   style?: object;
 };

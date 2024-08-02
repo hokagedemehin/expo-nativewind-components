@@ -1,4 +1,3 @@
-// import { StyleSheet, View } from "react-native";
 import { styled } from "nativewind";
 import { StyledWindViewProps } from "../types";
 import { View } from "react-native";

@@ -1,5 +1,14 @@
 # expo-nativewind-components
 
+## 0.1.8
+
+### Patch Changes
+
+- Adding More components
+- Image component is from expo-image
+- ImageBackground component is from react-native
+- Corrected ActivityIndicator export error
+
 ## 0.1.7
 
 ### Patch Changes

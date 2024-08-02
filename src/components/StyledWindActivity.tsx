@@ -5,7 +5,7 @@ import { ActivityIndicator } from "react-native";
 
 const StyledWindActivityIndicatorComp = styled(ActivityIndicator);
 
-const StyledWindActivity: React.FC<StyledWindActivityIndicatorProps> = ({
+export const StyledWindActivity: React.FC<StyledWindActivityIndicatorProps> = ({
   className,
   style,
   ...rest
@@ -18,5 +18,3 @@ const StyledWindActivity: React.FC<StyledWindActivityIndicatorProps> = ({
     />
   );
 };
-
-export default StyledWindActivity;

@@ -12,11 +12,15 @@ A collection of reusable React Native components for Expo projects, super charge
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-<!-- - [Components](#components) -->
-- [Contributing](#contributing)
-- [License](#license)
+- [expo-nativewind-components](#expo-nativewind-components)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Running Tests](#running-tests)
+  - [License](#license)
+  - [Bugs and Issues](#bugs-and-issues)
+  - [Author](#author)
 
 ## Installation
 
