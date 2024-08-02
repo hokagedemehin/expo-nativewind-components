@@ -5,3 +5,4 @@ export * from "./components/StyledWindPressable";
 export * from "./components/StyleWindImage";
 export * from "./components/StyledWindActivity";
 export * from "./components/StyledWindImageBackground";
+export * from "./components/StyledWindExpoImage";

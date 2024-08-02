@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.12
+
+### Patch Changes
+
+- correcting export error for expo image
+
 ## 0.1.11
 
 ### Patch Changes
