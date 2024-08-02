@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.9
+
+### Patch Changes
+
+- Correcting export errors from index
+
 ## 0.1.8
 
 ### Patch Changes

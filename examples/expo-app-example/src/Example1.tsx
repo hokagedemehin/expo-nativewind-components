@@ -24,10 +24,14 @@ const Example1Comp = () => {
         }}
         className="bg-blue-500 p-3 rounded-lg mt-3"
       >
-        <StyledWindText className="text-white text-lg font-bold">
+        <StyledWindText
+          numberOfLines={1}
+          className="text-white text-lg font-bold"
+        >
           StyledWindPressable a update oustide of the component
         </StyledWindText>
       </StyledWindPressable>
+      {/* <StyledWindActivity /> */}
     </StyledWindView>
   );
 };
