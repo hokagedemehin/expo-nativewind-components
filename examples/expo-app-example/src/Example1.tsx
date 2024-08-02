@@ -2,6 +2,7 @@ import { StyleSheet } from "react-native";
 import React from "react";
 import {
   StyledWindActivity,
+  StyledWindExpoImage,
   StyledWindImageBackground,
   StyledWindPressable,
   StyledWindText,
@@ -40,14 +41,12 @@ const Example1Comp = () => {
         size="large"
       />
       <StyleWindImage
-        style={
-          {
-            // objectFit: "scale-down",
-            // resizeMode: "contain",
-            // borderWidth: 4,
-            // borderColor: "red",
-          }
-        }
+        style={{
+          objectFit: "scale-down",
+          // resizeMode: "contain",
+          // borderWidth: 4,
+          // borderColor: "red",
+        }}
         source={require("../assets/dashboard6.png")}
         className="w-40 h-40 m-6 translate-x-10 border-4 border-red-700 object-scale-down object-left-bottom rounded-full bg-black"
       />
@@ -55,14 +54,28 @@ const Example1Comp = () => {
         source={require("../assets/homeBG1.png")}
         className="w-40 h-20 mt-3 border-4 border-red-700"
         style={{}}
-        imageStyle={{
-          objectFit: "contain",
-        }}
+        imageStyle={
+          {
+            // resizeMode: "contain",
+          }
+        }
       >
         <StyledWindText className="text-white">
           StyledWindImageBackground
         </StyledWindText>
       </StyledWindImageBackground>
+      <StyledWindText>Expo image example</StyledWindText>
+      <StyledWindExpoImage
+        style={
+          {
+            // resizeMode: "contain",
+          }
+        }
+        // source={{ uri: "https://reactjs.org/logo-og.png" }}
+        source={require("../assets/dashboard6.png")}
+        className="w-40 h-20 mt-3 border-4 border-red-500  "
+        contentFit="contain"
+      />
     </StyledWindView>
   );
 };

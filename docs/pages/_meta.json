@@ -4,5 +4,8 @@
   },
   "installation": {
     "title": "Installation"
+  },
+  "core_components": {
+    "title": "Core Components"
   }
 }

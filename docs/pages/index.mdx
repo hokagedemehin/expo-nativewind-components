@@ -1,3 +1,46 @@
+import { Callout, Cards, Card } from 'nextra/components'
+import { Icon } from '@iconify/react';
+
 # Expo Nativewind Components
 
-This package is a collection of reusable React Native components for Expo projects, super charged with NativeWind. once you have an expo project setup with NativeWind, you can use these components in place of the core React Native components and pass className props directly to style your components.
+## What is Expo Nativewind Components?
+This package is a collection of reusable React Native components for Expo projects, super charged with NativeWind. 
+
+Once you have an expo project setup with NativeWind, you can use these components in place of the core React Native components and pass className props directly to style your components.
+
+```tsx filename="index.tsx" showLineNumbers copy
+import React from "react";
+import {
+  StyledWindView,
+  StyledWindText,
+} from "expo-nativewind-components";
+
+export default function App() {
+  return (
+    <StyledWindView classname="h-screen w-full justify-center items-center">
+      <StyledWindText className="text-center text-2xl text-red-500">
+        Hello, World!
+      </StyledWindText>
+    </StyledWindView>
+  );
+}
+```
+
+<Callout type='info'>
+React native primarily uses flexbox for its layout display and direction is column by default. For more information on this, visit [Layout with Flexbox](https://reactnative.dev/docs/flexbox)
+</Callout>
+
+## What's next
+<Cards>
+<Card
+icon={<Icon icon="material-symbols:install-desktop-rounded" width="24" height="24" />}
+    title="Installation"
+    href="/installation"
+  />
+  <Card
+  icon={<Icon icon="token:comp" width={25} />}
+    title="Core Components"
+    href="/core_components/view"
+  />
+  
+  </Cards>
