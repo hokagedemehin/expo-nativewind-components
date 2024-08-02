@@ -10,19 +10,19 @@ import { type ImageProps as ExpoImageProps } from "expo-image";
 import React from "react";
 
 export type StyledWindViewProps = ViewProps & {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
   style?: object;
 };
 
 export type StyledWindTextProps = TextProps & {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
   style?: object;
 };
 
 export type StyledWindPressableProps = PressableProps & {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
   style?: object;
 };
@@ -38,7 +38,7 @@ export type StyledWindImageProps = ImageProps & {
 };
 
 export type StyledWindImageBackgroundProps = ImageBackgroundProps & {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
   style?: object;
 };

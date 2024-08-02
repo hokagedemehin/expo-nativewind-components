@@ -1,5 +1,13 @@
 # expo-nativewind-components
 
+## 0.1.14
+
+### Patch Changes
+
+- Adding core components introduction documentation
+- Updating StyledNativeView documentation
+- making the children prop optional for the styled components
+
 ## 0.1.13
 
 ### Patch Changes

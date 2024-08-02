@@ -1,0 +1,15 @@
+# Core Components
+
+This package only serve as a bridge between NativeWind and React Native components and leave all the custimization to the user. The components are built on top of the core React Native components and can be used in place of the core components. 
+
+React Native integrates one of the follwing style props in one or more of their core components:
+
+- [Layout Style Props](https://reactnative.dev/docs/layout-props)
+- [Shadow Style Props](https://reactnative.dev/docs/shadow-props)
+- [Text Style Props](https://reactnative.dev/docs/text-style-props)
+- [View Style Props](https://reactnative.dev/docs/view-style-props)
+- [Image Style Props](https://reactnative.dev/docs/image-style-props)
+
+It is also possible to combine both `style` and `className` props in the components. The `style` prop will override the styles from the `className` if they are providing the same style properties.
+
+Also be sure to check [NativeWind's docs](https://native.wind.org/overview) for more information on which utility classes you can use in the `className` prop for the components.
