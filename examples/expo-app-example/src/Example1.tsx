@@ -1,9 +1,12 @@
 import { StyleSheet } from "react-native";
 import React from "react";
 import {
+  StyledWindActivity,
+  StyledWindImageBackground,
   StyledWindPressable,
   StyledWindText,
   StyledWindView,
+  StyleWindImage,
 } from "expo-nativewind-components";
 
 const Example1Comp = () => {
@@ -31,7 +34,30 @@ const Example1Comp = () => {
           StyledWindPressable a update oustide of the component
         </StyledWindText>
       </StyledWindPressable>
-      {/* <StyledWindActivity /> */}
+      <StyledWindActivity
+        style={{}}
+        className="mt-3 bg-red-400 border text-xs text-white"
+        size="large"
+      />
+      <StyleWindImage
+        style={{
+          objectFit: "contain",
+        }}
+        source={require("../assets/homeBG1.png")}
+        className="w-40 h-20 mt-3"
+      />
+      <StyledWindImageBackground
+        source={require("../assets/homeBG1.png")}
+        className="w-40 h-20 mt-3 border-4 border-red-500"
+        style={{}}
+        imageStyle={{
+          objectFit: "contain",
+        }}
+      >
+        <StyledWindText className="text-white">
+          StyledWindImageBackground
+        </StyledWindText>
+      </StyledWindImageBackground>
     </StyledWindView>
   );
 };

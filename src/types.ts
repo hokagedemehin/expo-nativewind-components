@@ -3,10 +3,10 @@ import {
   type ActivityIndicatorProps,
   type ViewProps,
   type PressableProps,
-  // type ImageProps,
+  type ImageProps,
   type ImageBackgroundProps,
 } from "react-native";
-import { type ImageProps } from "expo-image";
+// import { type ImageProps } from "expo-image";
 import React from "react";
 
 export type StyledWindViewProps = ViewProps & {

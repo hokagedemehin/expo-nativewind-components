@@ -1,8 +1,8 @@
 import React from "react";
 import { styled } from "nativewind";
 import { StyledWindImageProps } from "../types";
-// import { Image } from "react-native";
-import { Image } from "expo-image";
+import { Image } from "react-native";
+// import { Image } from "expo-image";
 
 const StyledWindImageComp = styled(Image);
 

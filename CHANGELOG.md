@@ -1,5 +1,12 @@
 # expo-nativewind-components
 
+## 0.1.10
+
+### Patch Changes
+
+- Change image component
+- Switched Image component from expo-image to react-native
+
 ## 0.1.9
 
 ### Patch Changes
