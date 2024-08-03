@@ -6,14 +6,15 @@ import React from "react";
 const StyledWindViewComp = styled(View);
 
 export const StyledWindView: React.FC<StyledWindViewProps> = ({
-  children,
+  // children,
   className,
   style,
   ...rest
 }) => {
   return (
-    <StyledWindViewComp className={className} style={style} {...rest}>
-      {children}
-    </StyledWindViewComp>
+    <StyledWindViewComp className={className} style={style} {...rest} />
+    // <StyledWindViewComp className={className} style={style} {...rest}>
+    //   {children}
+    // </StyledWindViewComp>
   );
 };

@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.15
+
+### Patch Changes
+
+- Made children optional for styled view
+
 ## 0.1.14
 
 ### Patch Changes
