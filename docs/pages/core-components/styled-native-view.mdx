@@ -9,13 +9,23 @@ import { StyledWindView } from "expo-nativewind-components";
 
 export default function App() {
   return (
-    <StyledWindView className="h-screen w-full justify-center items-center">
+    <StyledWindView className="bg-blue-500 h-screen w-[80%] border border-red-500 mt-10">
       {/* Your content here */}
     </StyledWindView>
   );
 }
 ```
+<div 
+  style={{
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }}
+>
+<img src='https://raw.githubusercontent.com/hokagedemehin/expo-nativewind-components/main/docs/public/view-example.jpg' alt='package logo' width='200' />
 
+</div>
 And you can pass the `style` prop along with the `className`. The `style` prop will override the styles from the `className`. The final width of the below example will be `200` as the `style` prop is overriding the `className`.
 
 ```tsx filename="App.tsx" showLineNumbers

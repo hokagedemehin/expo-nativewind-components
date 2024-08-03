@@ -50,22 +50,13 @@ export default {
   editLink: {
     component: null,
   },
-  // gitTimestamp: () => {
-  //   const { gitTimestamp } = useConfig();
-  //   console.log("gitTimestamp :>> ", gitTimestamp);
-  //   return (
-  //     <div>
-  //       <p>Last Updated: {gitTimestamp}</p>
-  //     </div>
-  //   );
-  // },
   footer: {
     text: (
       <>
         <div className="">
           Copyright {new Date().getFullYear()} ©{" "}
           <a
-            href="https://admin-stg-f987f871eac0.herokuapp.com"
+            href="https://github.com/hokagedemehin/expo-nativewind-components"
             target="_blank"
             rel="noopener noreferrer"
           >

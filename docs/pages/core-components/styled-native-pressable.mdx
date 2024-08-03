@@ -9,7 +9,7 @@ import { StyledWindPressable } from "expo-nativewind-components";
 
 export default function App() {
   return (
-    <StyledWindPressable className="h-full w-full bg-white justify-center items-center">
+    <StyledWindView className="h-full w-full bg-white justify-center items-center">
       <StyledWindPressable
       onPress={() => {
         console.log("You pressed me");
@@ -17,14 +17,25 @@ export default function App() {
       className="bg-blue-500 h-14 w-[80%] rounded-lg  flex flex-row justify-center items-center "
       android_ripple={{ color: "purple" }}
     >
-      <StyledWindText className="text-center text-2xl font-bold ">
+      <StyledWindText clazssName="text-center text-2xl font-bold ">
         Press me
       </StyledWindText>
     </StyledWindPressable>
-    </StyledWindPressable>
+    </StyledWindView>
   );
 }
 ```
+<div 
+  style={{
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }}
+>
+<img src='https://github.com/hokagedemehin/expo-nativewind-components/blob/08f40ed8da5eb8e7943b720e7c6f5ed168f37500/docs/public/button-example.jpg?raw=true' alt='package logo' width='200' />
+
+</div>
 
 ## Props Reference
 
