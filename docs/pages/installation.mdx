@@ -4,13 +4,13 @@ import { Steps, Tabs, Callout } from 'nextra/components'
 
 ## Package set-up
 <Steps>
-### Setup your project with Nativewind
+### Setup your project with Nativewind (v2)
 
 Nativewind is a utility-first CSS framework for React Native. It is a port of Tailwind CSS for React Native. To setup your project with Nativewind, follow the instructions in the [Nativewind documentation](https://www.nativewind.dev/quick-starts/expo).
 
 ### Install the package
 
-Once you have configured your project with Nativewind, you can install the package by running the following command:
+Once you have configured your project with Nativewind, you can install the package by running one of the following command:
 
 {/* <Tabs items={['npm', 'yarn', 'pnpm']}>
 <Tabs.Tab>
@@ -36,7 +36,7 @@ npm install expo-nativewind-components
 
 ### Install Expo Image (if not already installed)
 
-You will need to install `expo-image` as it is a required depency for one of the components in the package. You can install it by running the following command:
+You will need to install `expo-image` as it is a required dependency for one of the components in the package. You can install it by running the following command:
 
 ```bash copy
 npx expo install expo-image
@@ -44,10 +44,9 @@ npx expo install expo-image
 
 ### Thats it 🎉
 
-You are now ready to use the components in your project. You can import the components from the package and use them in your project.
+You are now ready to use all available components in your project. You can import any of the components from the package and use them in your project without any further configuration.
+```tsx filename="App.tsx" showLineNumbers copy
 
-```tsx filename="App.tsx" showLineNumbers
-import { StatusBar } from 'expo-status-bar';
 import { StyledWindView, StyledWindText } from "expo-nativewind-components";
 
 export default function App() {

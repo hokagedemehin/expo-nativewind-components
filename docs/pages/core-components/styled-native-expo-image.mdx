@@ -1,0 +1,34 @@
+## Styled Native Expo Image
+
+This component is build on Expo Image, a cross-platform and performant React component that loads and renders images.
+
+### Main features
+
+- Designed for speed
+- Support for many image formats (including animated ones)
+- Disk and memory caching
+- Supports `BlurHash` and `ThumbHash` - compact representations of a placeholder for an image
+- Transitioning between images when the source changes (no more flickering!)
+- Implements the CSS `object-fit` and `object-position` properties (see `contentFit` and `contentPosition` props)
+- Uses performant `SDWebImage` and `Glide` under the hood
+
+### Usage
+
+```tsx filename="App.tsx" showLineNumbers copy
+import { StyledWindImage } from "expo-nativewind-components";
+
+export default function App() {
+  return (
+    <StyledWindExpoImage
+        source={{
+          uri: "https://raw.githubusercontent.com/hokagedemehin/expo-nativewind-components/main/play_store_512.png",
+        }}
+        className="w-40 h-40 rounded-lg transform rotate-45"
+      />
+  );
+}
+```
+
+### Props Reference
+
+You can find all the possible props that you can pass to the `StyledWindImage` component below from the [official Expo documentation](https://docs.expo.dev/versions/latest/sdk/image/#component).

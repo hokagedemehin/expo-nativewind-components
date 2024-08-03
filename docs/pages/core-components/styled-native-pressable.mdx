@@ -1,0 +1,33 @@
+## Styled Native Pressable
+
+This component is build on React Native Pressable which is a wrapper for making views respond properly to touches. On press down, the opacity of the wrapped view is decreased, which allows the underlay color to show through, darkening or tinting the view.
+
+## Usage
+
+```tsx filename="App.tsx" showLineNumbers copy
+import { StyledWindPressable } from "expo-nativewind-components";
+
+export default function App() {
+  return (
+    <StyledWindPressable className="h-full w-full bg-white justify-center items-center">
+      <StyledWindPressable
+      onPress={() => {
+        console.log("You pressed me");
+      }}
+      className="bg-blue-500 h-14 w-[80%] rounded-lg  flex flex-row justify-center items-center "
+      android_ripple={{ color: "purple" }}
+    >
+      <StyledWindText className="text-center text-2xl font-bold ">
+        Press me
+      </StyledWindText>
+    </StyledWindPressable>
+    </StyledWindPressable>
+  );
+}
+```
+
+## Props Reference
+
+The example above made use of the `onPress` prop which is a function that is called when the press is released. The `android_ripple` prop is used to set the ripple effect color on Android devices. The `android_ripple` prop is an object that takes a color property which is a string amongst others.
+
+You can always find all the possible props that you can pass to the `StyledWindPressable` component below from the [official React Native documentation](https://reactnative.dev/docs/pressable#props).

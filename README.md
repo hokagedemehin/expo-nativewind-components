@@ -38,14 +38,14 @@ Import the components you need from the package and use them in your project. He
 
 ```jsx
 import React from "react";
-import { View } from "react-native";
-import { MyComponent } from "expo-nativewind-components";
-
+import { StyledWindView, StyledWindText } from "expo-nativewind-components";
 const App = () => {
   return (
-    <View>
-      <MyComponent text="Hello, World!" />
-    </View>
+    <StyledWindView className="h-screen w-full justify-center items-center">
+      <StyledWindText className="text-center text-2xl font-bold text-blue-500 mt-10">
+        Hello Awesome developers 👋🏽
+      </StyledWindText>
+    </StyledWindView>
   );
 };
 
