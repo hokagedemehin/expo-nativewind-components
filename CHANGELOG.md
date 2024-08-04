@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.17
+
+### Patch Changes
+
+- adding scrollview to the package
+
 ## 0.1.16
 
 ### Patch Changes

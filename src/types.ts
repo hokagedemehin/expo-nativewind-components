@@ -5,6 +5,7 @@ import {
   type PressableProps,
   type ImageProps,
   type ImageBackgroundProps,
+  ScrollViewProps,
 } from "react-native";
 import { type ImageProps as ExpoImageProps } from "expo-image";
 import React from "react";
@@ -44,6 +45,12 @@ export type StyledWindImageBackgroundProps = ImageBackgroundProps & {
 };
 
 export type StyledWindExpoImageProps = ExpoImageProps & {
+  className?: string;
+  style?: object;
+};
+
+export type StyledWindScrollViewProps = ScrollViewProps & {
+  children?: React.ReactNode;
   className?: string;
   style?: object;
 };
