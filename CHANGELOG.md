@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.20
+
+### Patch Changes
+
+- correct image name typo
+
 ## 0.1.19
 
 ### Patch Changes

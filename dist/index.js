@@ -30,6 +30,12 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.ts
 var src_exports = {};
 __export(src_exports, {
+  StyleWindImage: () => StyleWindImage,
+  StyleWindScrollView: () => StyleWindScrollView,
+  StyledWindActivity: () => StyledWindActivity,
+  StyledWindExpoImage: () => StyledWindExpoImage,
+  StyledWindImageBackground: () => StyledWindImageBackground,
+  StyledWindPressable: () => StyledWindPressable,
   StyledWindText: () => StyledWindText,
   StyledWindView: () => StyledWindView
 });
@@ -41,12 +47,12 @@ var import_react_native = require("react-native");
 var import_react = __toESM(require("react"));
 var StyledWindViewComp = (0, import_nativewind.styled)(import_react_native.View);
 var StyledWindView = ({
-  children,
+  // children,
   className,
   style,
   ...rest
 }) => {
-  return /* @__PURE__ */ import_react.default.createElement(StyledWindViewComp, { className, style, ...rest }, children);
+  return /* @__PURE__ */ import_react.default.createElement(StyledWindViewComp, { className, style, ...rest });
 };
 
 // src/components/StyledWindText.tsx
@@ -63,13 +69,104 @@ var StyledWindText = ({
   return /* @__PURE__ */ import_react2.default.createElement(StyledWindTextComp, { className, style, ...rest }, children);
 };
 
-// src/StyledWindPressable.tsx
+// src/components/StyledWindPressable.tsx
 var import_react3 = __toESM(require("react"));
 var import_react_native3 = require("react-native");
 var import_nativewind3 = require("nativewind");
 var StyledWindPressableComp = (0, import_nativewind3.styled)(import_react_native3.Pressable);
+var StyledWindPressable = ({
+  children,
+  className,
+  style,
+  ...rest
+}) => {
+  return /* @__PURE__ */ import_react3.default.createElement(StyledWindPressableComp, { className, style, ...rest }, children);
+};
+
+// src/components/StyledWindImage.tsx
+var import_react4 = __toESM(require("react"));
+var import_nativewind4 = require("nativewind");
+var import_react_native4 = require("react-native");
+var StyledWindImageComp = (0, import_nativewind4.styled)(import_react_native4.Image);
+var StyleWindImage = ({
+  className,
+  style,
+  ...rest
+}) => {
+  return /* @__PURE__ */ import_react4.default.createElement(StyledWindImageComp, { className, style, ...rest });
+};
+
+// src/components/StyledWindActivity.tsx
+var import_react5 = __toESM(require("react"));
+var import_nativewind5 = require("nativewind");
+var import_react_native5 = require("react-native");
+var StyledWindActivityIndicatorComp = (0, import_nativewind5.styled)(import_react_native5.ActivityIndicator);
+var StyledWindActivity = ({
+  className,
+  style,
+  ...rest
+}) => {
+  return /* @__PURE__ */ import_react5.default.createElement(
+    StyledWindActivityIndicatorComp,
+    {
+      className,
+      style,
+      ...rest
+    }
+  );
+};
+
+// src/components/StyledWindImageBackground.tsx
+var import_react6 = __toESM(require("react"));
+var import_nativewind6 = require("nativewind");
+var import_react_native6 = require("react-native");
+var StyledWindImageBackgroundComp = (0, import_nativewind6.styled)(import_react_native6.ImageBackground);
+var StyledWindImageBackground = ({ className, style, children, ...rest }) => {
+  return /* @__PURE__ */ import_react6.default.createElement(
+    StyledWindImageBackgroundComp,
+    {
+      className,
+      style,
+      ...rest
+    },
+    children
+  );
+};
+
+// src/components/StyledWindExpoImage.tsx
+var import_react7 = __toESM(require("react"));
+var import_expo_image = require("expo-image");
+var import_nativewind7 = require("nativewind");
+var StyledWindExpoImageComp = (0, import_nativewind7.styled)(import_expo_image.Image);
+var StyledWindExpoImage = ({
+  className,
+  style,
+  ...rest
+}) => {
+  return /* @__PURE__ */ import_react7.default.createElement(StyledWindExpoImageComp, { className, style, ...rest });
+};
+
+// src/components/StyledWindScrollView.tsx
+var import_react8 = __toESM(require("react"));
+var import_nativewind8 = require("nativewind");
+var import_react_native7 = require("react-native");
+var StyledWindScrollViewComp = (0, import_nativewind8.styled)(import_react_native7.ScrollView);
+var StyleWindScrollView = ({
+  children,
+  className,
+  style,
+  ...rest
+}) => {
+  return /* @__PURE__ */ import_react8.default.createElement(StyledWindScrollViewComp, { className, style, ...rest }, children);
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
+  StyleWindImage,
+  StyleWindScrollView,
+  StyledWindActivity,
+  StyledWindExpoImage,
+  StyledWindImageBackground,
+  StyledWindPressable,
   StyledWindText,
   StyledWindView
 });
