@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.18
+
+### Patch Changes
+
+- correcting scrollview export error
+
 ## 0.1.17
 
 ### Patch Changes
