@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.19
+
+### Patch Changes
+
+- Correcting name typo on Scrollview
+
 ## 0.1.18
 
 ### Patch Changes

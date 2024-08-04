@@ -6,4 +6,4 @@ export * from "./components/StyleWindImage";
 export * from "./components/StyledWindActivity";
 export * from "./components/StyledWindImageBackground";
 export * from "./components/StyledWindExpoImage";
-export * from "./components/StyleWindScrollView";
+export * from "./components/StyledWindScrollView";
