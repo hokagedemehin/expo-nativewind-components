@@ -5,7 +5,7 @@ import { ScrollView } from "react-native";
 
 const StyledWindScrollViewComp = styled(ScrollView);
 
-export const StyleWindScrollView: React.FC<StyledWindScrollViewProps> = ({
+export const StyledWindScrollView: React.FC<StyledWindScrollViewProps> = ({
   children,
   className,
   style,
