@@ -1,0 +1,25 @@
+## Styled Native ScrollView
+
+This component is build on React Native ScrollView which is a generic scrolling container that can host multiple components and views.
+
+## Usage
+
+```tsx filename="App.tsx" showLineNumbers copy
+import { StyledWindScrollView, StyledWindView, StyledWindText } from "expo-nativewind-components";
+
+export default function App() {
+  return (
+    <StyledWindScrollView className='flex-1'>
+      <StyledWindView className='flex-1 justify-center items-center'>
+        <StyledWindText className='text-center text-2xl font-bold text-blue-500 mt-10'>
+          Hello Awesome developers 👋🏽
+        </StyledWindText>
+      </StyledWindView>
+    </StyledWindScrollView>
+  );
+}
+```
+
+## Props Reference
+
+You can find all the possible props that you can pass to the `StyledWindScrollView` component below from the [official React Native documentation](https://reactnative.dev/docs/scrollview#props).`;

@@ -1,0 +1,45 @@
+## Styled Native Refresh Control
+
+This component is build on React Native Refresh Control which is a component used inside a ScrollView or FlatList to add pull to refresh functionality.
+
+## Usage
+
+```tsx filename="App.tsx" showLineNumbers copy
+import { StyledWindRefreshControl, StyledWindScrollView, StyledWindView, StyledWindText } from "expo-nativewind-components";
+
+export default function App() {
+  const [refreshing, setRefreshing] = React.useState(false);
+
+  const onRefresh = React.useCallback(() => {
+    setRefreshing(true);
+
+    wait(2000).then(() => setRefreshing(false));
+  }, []);
+
+  const wait = (timeout: number) => {
+  return new Promise((resolve) => {
+    setTimeout(resolve, timeout);
+  });
+};
+
+  return (
+    <StyledWindScrollView
+      refreshControl={
+        <StyledWindRefreshControl
+          refreshing={refreshing}
+          onRefresh={onRefresh}
+        />
+      }
+    >
+      <StyledWindView className='flex-1 justify-center items-center'>
+        <StyledWindText>Pull down to see RefreshControl indicator</StyledWindText>
+      </StyledWindView>
+    </ScrollView>
+  );
+}
+
+```
+
+## Props Reference
+
+The example above made use of the `refreshing` prop which is a boolean value that is used to set the refreshing indicator. The `onRefresh` prop is a function that is called when the user pulls down to refresh. You can always find all the possible props that you can pass to the `StyledWindRefreshControl` component below from the [official React Native documentation](https://reactnative.dev/docs/refreshcontrol#props).`

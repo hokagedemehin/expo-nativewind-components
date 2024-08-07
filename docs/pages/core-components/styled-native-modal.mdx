@@ -1,0 +1,45 @@
+## Styled Native Modal
+
+This component is build on React Native Modal which is a component to present content above an enclosing view.
+
+## Usage
+
+```tsx filename="App.tsx" showLineNumbers copy
+import { StyledWindModal, StyledWindView, StyledWindText } from "expo-nativewind-components";
+import React, { useState } from "react";
+import { Button } from "react-native";
+
+export default function App() {
+  const [modalVisible, setModalVisible] = useState(false);
+
+  return (
+    <StyledWindView className="flex-1 justify-center items-center">
+      <StyledWindModal
+        animationType="slide"
+        transparent={true}
+        visible={modalVisible}
+        onRequestClose={() => {
+          setModalVisible(!modalVisible);
+        }}
+      >
+        <StyledWindView className="flex-1 justify-center items-center bg-gray-500">
+          <StyledWindText className="text-white">Hello from Modal</StyledWindText>
+          <Button
+            title="Close Modal"
+            onPress={() => setModalVisible(!modalVisible)}
+          />
+        </StyledWindView>
+      </StyledWindModal>
+      <Button
+        title="Open Modal"
+        onPress={() => setModalVisible(true)}
+      />
+    </StyledWindView>
+  );
+}
+```
+
+
+## Props Reference
+
+You can find all the possible props that you can pass to the `StyledWindModal` component below from the [official React Native documentation](https://reactnative.dev/docs/modal#props).`
