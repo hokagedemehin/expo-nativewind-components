@@ -4,5 +4,8 @@
   "styled-native-text": "Styled Native Text",
   "styled-native-pressable": "Styled Native Pressable",
   "styled-native-expo-image": "Styled Native Expo Image",
-  "styled-native-scrollview": "Styled Native Scrollview"
+  "styled-native-scrollview": "Styled Native Scrollview",
+  "styled-native-keyboard-avoiding-view": "Styled Native Keyboard Avoiding View",
+  "styled-native-refresh-control": "Styled Native Refresh Control",
+  "styled-native-text-input": "Styled Native Textinput"
 }

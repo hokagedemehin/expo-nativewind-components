@@ -1,5 +1,11 @@
 # expo-nativewind-components
 
+## 0.1.24
+
+### Patch Changes
+
+- correcting sidebar issues on docs
+
 ## 0.1.23
 
 ### Patch Changes

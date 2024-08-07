@@ -6,7 +6,7 @@ import { Image } from "react-native";
 
 const StyledWindImageComp = styled(Image);
 
-export const StyleWindImage: React.FC<StyledWindImageProps> = ({
+export const StyledWindImage: React.FC<StyledWindImageProps> = ({
   className,
   style,
   ...rest
