@@ -7,3 +7,6 @@ export * from "./components/StyledWindActivity";
 export * from "./components/StyledWindImageBackground";
 export * from "./components/StyledWindExpoImage";
 export * from "./components/StyledWindScrollView";
+export * from "./components/StyledWindKeyboardAvoidingView";
+export * from "./components/StyledWindModal";
+export * from "./components/StyledWindRefreshControl";

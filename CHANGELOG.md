@@ -1,5 +1,13 @@
 # expo-nativewind-components
 
+## 0.1.22
+
+### Patch Changes
+
+- Added Keyboard Avoiding View component
+- Added Modal component
+- Added Refresh control component
+
 ## 0.1.21
 
 ### Patch Changes

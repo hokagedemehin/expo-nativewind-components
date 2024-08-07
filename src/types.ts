@@ -5,7 +5,10 @@ import {
   type PressableProps,
   type ImageProps,
   type ImageBackgroundProps,
-  ScrollViewProps,
+  type ScrollViewProps,
+  type KeyboardAvoidingViewProps,
+  type ModalProps,
+  RefreshControlProps,
 } from "react-native";
 import { type ImageProps as ExpoImageProps } from "expo-image";
 import React from "react";
@@ -53,4 +56,18 @@ export type StyledWindScrollViewProps = ScrollViewProps & {
   children?: React.ReactNode;
   className?: string;
   style?: object;
+};
+
+export type StyledWindKeyboardAvoidingViewProps = KeyboardAvoidingViewProps & {
+  children?: React.ReactNode;
+  className?: string;
+};
+
+export type StyledWindModalProps = ModalProps & {
+  children?: React.ReactNode;
+  className?: string;
+};
+
+export type StyledWindRefreshControlProps = RefreshControlProps & {
+  className?: string;
 };

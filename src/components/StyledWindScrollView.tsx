@@ -8,11 +8,10 @@ const StyledWindScrollViewComp = styled(ScrollView);
 export const StyledWindScrollView: React.FC<StyledWindScrollViewProps> = ({
   children,
   className,
-  style,
   ...rest
 }) => {
   return (
-    <StyledWindScrollViewComp className={className} style={style} {...rest}>
+    <StyledWindScrollViewComp className={className} {...rest}>
       {children}
     </StyledWindScrollViewComp>
   );
