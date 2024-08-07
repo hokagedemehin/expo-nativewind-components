@@ -1,5 +1,12 @@
 # expo-nativewind-components
 
+## 0.1.23
+
+### Patch Changes
+
+- Adding text input component
+- Udating documentation for new components
+
 ## 0.1.22
 
 ### Patch Changes

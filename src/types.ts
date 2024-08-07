@@ -9,6 +9,7 @@ import {
   type KeyboardAvoidingViewProps,
   type ModalProps,
   RefreshControlProps,
+  TextInputProps,
 } from "react-native";
 import { type ImageProps as ExpoImageProps } from "expo-image";
 import React from "react";
@@ -70,4 +71,9 @@ export type StyledWindModalProps = ModalProps & {
 
 export type StyledWindRefreshControlProps = RefreshControlProps & {
   className?: string;
+};
+
+export type StyledWindTextInputProps = TextInputProps & {
+  className?: string;
+  style?: object;
 };

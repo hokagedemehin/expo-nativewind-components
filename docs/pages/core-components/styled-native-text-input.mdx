@@ -1,0 +1,32 @@
+## Styled Native Text Input
+
+This component is build on React Native TextInput which is a basic component that allows the user to enter text. It has an `onChangeText` prop that can be used to update the state of the text input. There are also other events, such as `onSubmitEditing` and onFocus that can be subscribed to.
+
+## Usage
+
+```tsx filename="App.tsx" showLineNumbers copy
+import { StyledWindTextInput, StyledWindView } from "expo-nativewind-components";
+import React, { useState } from "react";
+
+export default function App() {
+  const [text, setText] = useState("");
+
+  return (
+    <StyledWindView className="flex-1 justify-center items-center">
+      <StyledWindTextInput
+        className="border-2 border-gray-500 p-2"
+        placeholder="Type here..."
+        onChangeText={(text) => setText(text)}
+        value={text}
+      />
+    </StyledWindView>
+  );
+}
+```
+
+## Props Reference
+
+You can find all the possible props that you can pass to the `StyledWindTextInput` component below from the [official React Native documentation](https://reactnative.dev/docs/textinput#props).`;
+
+
+

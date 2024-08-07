@@ -10,3 +10,4 @@ export * from "./components/StyledWindScrollView";
 export * from "./components/StyledWindKeyboardAvoidingView";
 export * from "./components/StyledWindModal";
 export * from "./components/StyledWindRefreshControl";
+export * from "./components/StyledWindTextInput";
