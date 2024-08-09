@@ -1,5 +1,13 @@
 # expo-nativewind-components
 
+## 0.1.25
+
+### Patch Changes
+
+- Added touchable opacity component
+- Added touchable without feedback component
+- Added touchable highlight component
+
 ## 0.1.24
 
 ### Patch Changes

@@ -11,3 +11,6 @@ export * from "./components/StyledWindKeyboardAvoidingView";
 export * from "./components/StyledWindModal";
 export * from "./components/StyledWindRefreshControl";
 export * from "./components/StyledWindTextInput";
+export * from "./components/StyledWindTouchableHighlight";
+export * from "./components/StyledWindTouchableOpacity";
+export * from "./components/StyledWindTouchableWithoutFeedback";

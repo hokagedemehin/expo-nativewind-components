@@ -8,8 +8,11 @@ import {
   type ScrollViewProps,
   type KeyboardAvoidingViewProps,
   type ModalProps,
-  RefreshControlProps,
-  TextInputProps,
+  type RefreshControlProps,
+  type TextInputProps,
+  type TouchableHighlightProps,
+  type TouchableOpacityProps,
+  type TouchableWithoutFeedbackProps,
 } from "react-native";
 import { type ImageProps as ExpoImageProps } from "expo-image";
 import React from "react";
@@ -77,3 +80,22 @@ export type StyledWindTextInputProps = TextInputProps & {
   className?: string;
   style?: object;
 };
+
+export type StyledWindTouchableHighlightProps = TouchableHighlightProps & {
+  className?: string;
+  style?: object;
+  children?: React.ReactNode;
+};
+
+export type StyledWindTouchableOpacityProps = TouchableOpacityProps & {
+  className?: string;
+  style?: object;
+  children?: React.ReactNode;
+};
+
+export type StyledWindTouchableWithoutFeedbackProps =
+  TouchableWithoutFeedbackProps & {
+    className?: string;
+    style?: object;
+    children?: React.ReactNode;
+  };
