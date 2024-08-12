@@ -31,7 +31,7 @@ export default {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta
         name="description"
-        content="Expo Nativewind Components Documentation"
+        content="Simple and easy to use NativeWind Components for Expo apps"
       />
       <meta
         name="og:title"
