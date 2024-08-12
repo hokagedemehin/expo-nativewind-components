@@ -8,7 +8,7 @@
 
 ![runs with expo](https://img.shields.io/badge/Runs%20with%20Expo-4630EB.svg?style=flat&logo=EXPO&labelColor=f3f3f3&logoColor=000) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A collection of reusable React Native components for Expo projects, super charged with NativeWind. once you have an expo project setup with NativeWind, you can use these components in place of the core React Native components and pass className props directly to style your components.
+A collection of reusable React Native components for Expo projects, super charged with NativeWind. Once you have an expo project setup with NativeWind, you can use these components in place of the core React Native components and pass className props directly to style your components.
 
 ## Table of Contents
 
